@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2007bc2-ee7b-4ea2-847d-ff5cd84d0c77" name="Changes" comment="Add the test code">
-      <change afterPath="$PROJECT_DIR$/src/dp/SubArraySum.java" afterDir="false" />
+    <list default="true" id="c2007bc2-ee7b-4ea2-847d-ff5cd84d0c77" name="Changes" comment="Add the countSubset with sum code from dp">
+      <change afterPath="$PROJECT_DIR$/src/dp/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vasan-r&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vasan-r/Leetcode.git&quot;,
+    &quot;accountId&quot;: &quot;c8b675b6-e537-45f7-82fc-26c4340b7033&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -36,6 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CherryPickup.executor": "Run",
+    "Application.CountSubsetWithsum.executor": "Run",
+    "Application.PartitionEqualSubsetSum.executor": "Run",
     "Application.SubArraySum.executor": "Run",
     "Application.vasan.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -43,9 +58,22 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.SubArraySum" />
+  <component name="RunManager" selected="Application.PartitionEqualSubsetSum">
+    <configuration name="CountSubsetWithsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.CountSubsetWithsum" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionEqualSubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.PartitionEqualSubsetSum" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -59,7 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubArraySum" />
+        <item itemvalue="Application.PartitionEqualSubsetSum" />
+        <item itemvalue="Application.CountSubsetWithsum" />
       </list>
     </recent_temporary>
   </component>
@@ -80,11 +109,56 @@
       <option name="project" value="LOCAL" />
       <updated>1716352221361</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add the test code">
+      <option name="closed" value="true" />
+      <created>1716484383356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716484383356</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add the test code">
+      <option name="closed" value="true" />
+      <created>1716484390564</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716484390564</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add the test code">
+      <option name="closed" value="true" />
+      <created>1716484437238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716484437238</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add the countSubset with sum code from dp">
+      <option name="closed" value="true" />
+      <created>1716484617808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716484617808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add the Count subset with sum in dp" />
     <MESSAGE value="Add the test code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the test code" />
+    <MESSAGE value="Add the countSubset with sum code from dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the countSubset with sum code from dp" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dp/PartitionEqualSubsetSum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
