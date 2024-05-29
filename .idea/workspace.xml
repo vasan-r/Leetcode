@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2007bc2-ee7b-4ea2-847d-ff5cd84d0c77" name="Changes" comment="PartitionEqualSubsetSum using memorization technique">
-      <change afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/FindTargerSumWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/MinimumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/SubsetSumEqualToK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ProductOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Merge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/dp/SubArraySum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/CountSubsetWithsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CountSubsetWithsum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +52,7 @@
     "Application.CoinChange.executor": "Run",
     "Application.CountSubsetWithsum.executor": "Run",
     "Application.FindTargerSumWay.executor": "Run",
+    "Application.Merge.executor": "Run",
     "Application.MinimumDifference.executor": "Debug",
     "Application.PartitionEqualSubsetSum.executor": "Run",
     "Application.ProductOfArray.executor": "Run",
@@ -69,7 +64,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProductOfArray">
+  <component name="RunManager" selected="Application.Merge">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.CoinChange" />
       <module name="Leetcode" />
@@ -109,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinimumDifference" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Merge" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merge" />
         <item itemvalue="Application.ProductOfArray" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.FindTargerSumWay" />
         <item itemvalue="Application.CountSubsetWithsum" />
-        <item itemvalue="Application.MinimumDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716574939852</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="PartitionEqualSubsetSum using memorization technique">
+      <option name="closed" value="true" />
+      <created>1716921524945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716921524945</updated>
+    </task>
+    <task id="LOCAL-00009" summary="PartitionEqualSubsetSum using memorization technique">
+      <option name="closed" value="true" />
+      <created>1716921571132</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716921571132</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
