@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2007bc2-ee7b-4ea2-847d-ff5cd84d0c77" name="Changes" comment="PartitionEqualSubsetSum using memorization technique">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Merge.java" afterDir="false" />
+    <list default="true" id="c2007bc2-ee7b-4ea2-847d-ff5cd84d0c77" name="Changes" comment="merge sum in top 150 problems">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/leetcode/ProductOfArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/leetcode/ProductOfArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     "Application.MinimumDifference.executor": "Debug",
     "Application.PartitionEqualSubsetSum.executor": "Run",
     "Application.ProductOfArray.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
     "Application.SubArraySum.executor": "Run",
     "Application.SubsetSumEqualToK.executor": "Run",
     "Application.vasan.executor": "Run",
@@ -64,22 +66,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Merge">
+  <component name="RunManager" selected="Application.RemoveElement">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.CoinChange" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountSubsetWithsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.CountSubsetWithsum" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RemoveElement" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.Merge" />
         <item itemvalue="Application.ProductOfArray" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.FindTargerSumWay" />
-        <item itemvalue="Application.CountSubsetWithsum" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716921571132</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="merge sum in top 150 problems">
+      <option name="closed" value="true" />
+      <created>1717005561347</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717005561347</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +239,8 @@
     <MESSAGE value="Add the test code" />
     <MESSAGE value="Add the countSubset with sum code from dp" />
     <MESSAGE value="PartitionEqualSubsetSum using memorization technique" />
-    <option name="LAST_COMMIT_MESSAGE" value="PartitionEqualSubsetSum using memorization technique" />
+    <MESSAGE value="merge sum in top 150 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge sum in top 150 problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
