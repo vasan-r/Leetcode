@@ -10,7 +10,7 @@ public class BuyAndSellStocks11 {
         int current = 0;
         int profit = 0;
         for(int i=1;i<n-1;i++){
-            if(prices[current]<prices[i] && prices[i]<prices[i+1]){
+            if(prices[current]<=prices[i] && prices[i]<=prices[i+1]){
                 continue;
             }else if(prices[current]<=prices[i] && prices[i]>prices[i+1]){
                 profit += prices[i]-prices[current];
@@ -19,7 +19,7 @@ public class BuyAndSellStocks11 {
                 current = i;
             }
         }
-        if(current == 0)
+        if(current == 0 && prices[current]<prices[n-1])
             profit += prices[n-1]-prices[current];
         return profit;
     }
